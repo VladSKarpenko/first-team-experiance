@@ -1,11 +1,11 @@
 {
-  "name": "wild-scatch-project",
+  "name": "first-team-experiance",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/wild-scatch-project/",
+    "build": "vite build --base=/first-team-experiance/",
     "preview": "vite preview"
   },
   "devDependencies": {
