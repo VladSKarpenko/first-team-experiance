@@ -1,6 +1,59 @@
+.feedbacks-section {
+}
+
+.feedbacks-title {
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 32px;
+  max-width: 340px;
+}
+
+.feedbacks-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.feedbacks-item {
+  border: 1px solid rgba(12, 7, 8, 0.15);
+  background-color: #fff7f2;
+  border-radius: 16px;
+  width: 335px;
+  min-width: 250px;
+}
+
+.feedbacks-stars-list {
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 25px;
+  margin-bottom: 26px;
+  padding-left: 32px;
+}
+
 .feedbacks-stars-item {
-  display: inline-block;
   width: 24px;
   height: 24px;
   fill: #000000;
+}
+
+.feedbacks-text {
+  padding-left: 32px;
+  max-width: 305px;
+}
+
+.feedbacks-subtitle {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  padding-left: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1440px) {
 }
