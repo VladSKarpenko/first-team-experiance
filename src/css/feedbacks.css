@@ -1,4 +1,6 @@
 .feedbacks-section {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .feedbacks-title {
@@ -8,8 +10,8 @@
   line-height: 1.1;
   letter-spacing: -0.01em;
   text-align: center;
-  margin-bottom: 32px;
   max-width: 340px;
+  margin: 0 auto 32px auto;
 }
 
 .feedbacks-list {
@@ -53,7 +55,26 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .feedbacks-section {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .feedbacks-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .feedbacks-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media only screen and (min-width: 1440px) {
+  .feedbacks-section {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
 }
