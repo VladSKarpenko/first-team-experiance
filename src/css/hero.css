@@ -98,6 +98,8 @@
   border-radius: 100px;
 
   background-color: #ffb780;
+
+  transition: 300ms ease-out;
 }
 
 @media only screen and (min-width: 768px) {
@@ -110,6 +112,10 @@
   .hero-btn-register {
     width: 105px;
   }
+}
+.hero-btn-register:hover,
+.hero-btn-register:focus {
+  opacity: 0.5;
 }
 
 .hero-btn-learn-more {
@@ -129,6 +135,8 @@
   color: #0c0708;
 
   white-space: nowrap;
+
+  transition: 300ms ease-out;
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,7 +150,10 @@
     width: 127px;
   }
 }
-
+.hero-btn-learn-more:hover,
+.hero-btn-learn-more:focus {
+  opacity: 0.5;
+}
 .hero-image {
   display: block;
   width: 100%;
