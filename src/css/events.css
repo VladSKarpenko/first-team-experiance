@@ -125,7 +125,7 @@
     border-radius: 0;
   }
 
-  .events-card:not(:first-child) {
+  .events-item:not(:first-child) {
     border-top: none;
   }
 
