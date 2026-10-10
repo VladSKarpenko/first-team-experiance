@@ -19,7 +19,7 @@
   margin-bottom: 32px;
 }
 
-.events-block {
+.events-list {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -27,7 +27,7 @@
   gap: 40px;
 }
 
-.events-card {
+.events-item {
   display: flex;
   flex-direction: column;
   padding: 12px;
@@ -46,29 +46,37 @@
   object-fit: cover;
 }
 .event-caption {
-  margin: 16px;
+  margin: 16px 0;
 
   font-weight: 700;
   font-size: 24px;
   line-height: 1.1;
   letter-spacing: -0.01em;
+  text-align: start;
 }
 
-.events-list {
+.events-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.event-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
 
-  font-size: 14px;
-}
 .events-icon {
   display: block;
   flex-shrink: 0;
+}
+
+.events-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+
+  font-size: 14px;
+}
+
+.events-time {
+  font-size: 14px;
 }
 
 .events-btn {
@@ -102,11 +110,11 @@
     max-width: 768px;
     padding: 0 32px;
   }
-  .events-block {
+  .events-list {
     gap: 0px;
   }
 
-  .events-card {
+  .events-item {
     flex-direction: row;
     align-items: center;
 
@@ -136,20 +144,20 @@
     margin-left: 32px;
   }
 
-  .events-list {
+  .events-info {
     order: 3;
     flex-direction: column;
     align-items: flex-end;
     gap: 4px;
 
-    margin-right: 32px;
+    margin-left: auto;
   }
 
   .events-btn {
     order: 4;
     width: 97px;
     padding: 8px 20px;
-    margin-left: auto;
+    margin-left: 32px;
 
     font-family: inherit;
     font-weight: 500;
@@ -168,7 +176,7 @@
     width: 677px;
   }
 
-  .events-list {
+  .events-info {
     flex-direction: row;
     align-items: center;
     gap: 16px;
